@@ -5,14 +5,14 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     images = [
-        'image000000 (2).JPG',
-        'image000000 (3).JPG',
+        'image000000 (1).JPG'
+        'image000000 (2).JPG'
+        'image000000 (3).JPG'
         'image000000.JPG',
         'image000001.JPG',
         'image000002.JPG',
         'image000003.JPG',
         'image000004.JPG',
-        'image000000 (1).JPG'
     ]
     messages = [
         'Welcome to my website!',
